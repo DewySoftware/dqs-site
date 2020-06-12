@@ -1,13 +1,15 @@
 # Theme settings
 doks:
-    baseurl: https://dewy.dev/dqs
-    color_theme: # Available themes: blue (default), green, purple, red and yellow
+    baseurl: https://dqs.dewy.dev/
+    color_theme: blue
     header:
         logo:
             text: DQS
         nav:
-            - item_name: Jimblo
-              item_url: 'https://dewy.dev/dqs/buy'
+            - item_name: Home
+              item_url: 'https://dqs.dewy.dev/'
+            - item_name: Buy
+              item_url: 'https://dqs.dewy.dev/buy'
     footer:
         content:
             logo:

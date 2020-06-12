@@ -14,8 +14,28 @@ buttons:
 
 # Grid navigation
 grid_navigation:
-   - title: Samdple
-     excerpt: beanos
-     cta: Read
-     url: '/dwd'
+   - title: About
+     excerpt: Information for before you buy.
+     cta: Go
+     url: '/about'
+   - title: Buy
+     excerpt: Purchase DQS and get your instance.
+     cta: Go
+     url: '/buy'
+   - title: Features
+     excerpt: Documentation and overviews for all DQS features.
+     cta: Go
+     url: '/features'
+   - title: FAQ
+     excerpt: Frequently asked questions from the community.
+     cta: Go
+     url: '/features'
+   - title: Support
+     excerpt: Support beyond the FAQ.
+     cta: Go
+     url: '/support'
+   - title: Acknowledgements
+     excerpt: Credits and acknowledgements to open source projects. <3
+     cta: Go
+     url: '/acknowledgements'
 ---
