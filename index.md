@@ -37,5 +37,5 @@ grid_navigation:
    - title: Acknowledgements
      excerpt: Credits and acknowledgements to open source projects. <3
      cta: Go
-     url: '/acknowledgements'
+     url: '/credits'
 ---
