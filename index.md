@@ -29,7 +29,7 @@ grid_navigation:
    - title: FAQ
      excerpt: Frequently asked questions from the community.
      cta: Go
-     url: '/features'
+     url: '/faq'
    - title: Support
      excerpt: Support beyond the FAQ.
      cta: Go
