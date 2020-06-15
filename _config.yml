@@ -25,6 +25,8 @@ doks:
               profile_url: 'https://gitlab.com/dewysoftware/'
             - network_name: github
               profile_url: 'https://github.com/dewysoftware/'
+            - network_name: youtube
+              profile_url: 'https://www.youtube.com/channel/UCKWk27Y5JH-heB7-e9Tojlw'
     google_analytics:
         tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
     comments:
