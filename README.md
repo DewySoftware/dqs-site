@@ -72,7 +72,7 @@ gem install --user-install bundler jekyll
 
 ### Project Setup
 
-Firstly, clone the project either with SSH or HTML into a directory of your choosing.
+Firstly, clone the project either with SSH or HTTPS into a directory of your choosing.
 
 SSH (Recommended):
 
@@ -80,7 +80,7 @@ SSH (Recommended):
 git clone git@gitlab.com:dewysoftware/documentation/dqs-site.git
 ```
 
-HTML:
+HTTPS:
 
 ```bash
 git clone https://gitlab.com/dewysoftware/documentation/dqs-site.git
