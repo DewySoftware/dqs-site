@@ -17,7 +17,7 @@ page_nav:
 
 # DQS Acknowledgments & Credits
 
-**Without these open source projects, DQS wouldn't have been possible. Thank you to all the authors and contributors responsible for them. c:**
+**Without these open source projects, DQS wouldn't have been possible. Thank you to all the authors and contributors responsible for them! :D**
 
 ## Main Acknowledgements
 
@@ -31,6 +31,8 @@ Below is a list of all the open source projects DQS runs on. This list does not 
 - [**Apache HTTP Client**](https://hc.apache.org/httpcomponents-client-ga/) (Apache License 2.0)
 - [**JDA**](https://github.com/DV8FromTheWorld/JDA) (Apache License 2.0)
 - [**JDA Utilities**](https://github.com/JDA-Applications/JDA-Utilities) (Apache License 2.0)
+- [**Waterfall**](https://github.com/PaperMC/Waterfall) (MIT License)
+- [**Paper**](https://github.com/PaperMC/Paper) (GNU GPL3)
 
 ## Other Credits
 
@@ -2047,4 +2049,78 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+```
+
+### Waterfall
+
+```text
+MIT License
+
+Copyright (c) 2015-2016 Waterfall Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+### Paper
+
+```text
+Paper inherits its licensing from upstream projects.
+
+As such, Paper is licensed under the
+GNU General Public License version 3; as it inherits it from Spigot,
+who in turn inherits it from the original Bukkit and Craftbukkit projects.
+
+Any author who is not listed below should be presumed to have released their work
+under the original GPL license.
+
+In the interest of promoting a better Minecraft platform for everyone, contributors
+may choose to release their code under the more permissive MIT License.
+
+The authors listed below have chosen to release their code under that more permissive
+MIT License. Any contributor who wants their name added below
+should submit a pull request to this project to add their name.
+
+Zach Brown <zach.brown@destroystokyo.com>
+Daniel Ennis <aikar@aikar.co>
+Kyle Wood <demonwav@gmail.com>
+kashike <kashike@vq.lc>
+Black Hole <black-hole@live.com>
+Mark Vainomaa <mikroskeem@mikroskeem.eu>
+Mystiflow <mystiflow@gmail.com>
+Shane Freeder <theboyetronic@gmail.com>
+Gabscap <git@gabscap.de>
+Jadon Fowler <jadonflower@gmail.com>
+chickeneer <emcchickeneer@gmail.com>
+Minecrell <minecrell@minecrell.net>
+Techcable <Techcable@outlook.com>
+BillyGalbreath <blake.galbreath@gmail.com>
+MiniDigger <admin@minidigger.me>
+Brokkonaut <hannos17@gmx.de>
+vemacs <d@nkmem.es>
+stonar96 <minecraft.stonar96@gmail.com>
+Hugo Manrique <hugmanrique@gmail.com>
+Andrew Steinborn <git@steinborn.me>
+willies952002 <admin@domnian.com>
+MicleBrick <miclebrick@outlook.com>
+Trigary <trigary0@gmail.com>
+rickyboy320 <rickw320@hotmail.com>
+DoNotSpamPls <7570108+DoNotSpamPls@users.noreply.github.com>
+JRoy <joshroy126@gmail.com>
+Robert Norman <spottedleaf@spottedleaf.dev>, <Spottedleaf@users.noreply.github.com>
 ```
