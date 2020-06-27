@@ -391,17 +391,15 @@ Follow a given entity, just like a Baritone `#follow` process.
 - `&follow player <IGN>` - Follow a player of a given name.
 - `&follow entity <TYPE>` - Follow all entities of a given type.
 
-
-
 ### Goal Command
 
 Set Taribone's goal to a set of coordinates, to later be acted on with `&path`.
 
 ##### Syntax
 
-- `&goto <Y>` - Set Taribone's goal to a given Y level.
-- `&goto <X> <Z>` - Set Taribone's goal to a given XZ coordinate.
-- `&goto <X> <Y> <Z>` - Set Taribone's goal to an exact set of coordinates.
+- `&goal <Y>` - Set Taribone's goal to a given Y level.
+- `&goal <X> <Z>` - Set Taribone's goal to a given XZ coordinate.
+- `&goal <X> <Y> <Z>` - Set Taribone's goal to an exact set of coordinates.
 
 ### Goto Command
 
