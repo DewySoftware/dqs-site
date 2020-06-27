@@ -489,3 +489,137 @@ If you get ratelimitied by Mojang's auth API or another catastrophic error occur
 ##### Syntax
 
 - `&recover`
+
+### Focus Command
+
+This command can be used to focus on another account if you have additional accounts attached to your plan.
+
+##### Syntax
+
+- `&focus <IGN>` - Focus on a given account.
+
+## Modules
+
+### Auto Disconnect
+
+**Command:** `&autodisconnect`
+
+This module will automatically disconnect you depending on whether certain events occur.
+
+##### Full Explanation
+
+This module is fully configurable and toggleable, and does NOT run when a player is in control. It runs when a Taribone session is active and will end the Taribone session on disconnect.
+
+These events include:
+
+- A player coming into range
+- A crystal appearing in range
+- Nearly reaching the end of queue
+
+For those migrating from **DQS 2**, this can be used as a ForeverQ alternative.
+
+### Auto Reconnect
+
+**Command:** `&autoreconnect`
+
+This module is responsible for automatically reconnecting you when you get kicked / disconnected.
+
+##### Full Explanation
+
+This module is configurable, but NOT toggleable. This module is on at all times, no matter what.
+
+The seconds delay must be above 90 due to Hause's new anti-DQS measures and Mojang's authentication API rate limit. A fix is currently being investigated.
+
+### Auto Respawn
+
+**Command:** `&autorespawn`
+
+This module will automatically respawn you if you die.
+
+##### Full Explanation
+
+This module is NOT active while you are in control. When you die, you will automatically respawn with this module after a configurable delay of 1 or more seconds.
+
+### Notifications
+
+**Command:** `&notifications`
+
+This module is responsible for rolling out notifications for different events to do with your account(s).
+
+##### Full Explanation
+
+Notifications are ALWAYS sent in DMs, not the channel, no matter what. You will receive notifications regardless of whether you are focused on the account the notification is referring to.
+
+The events that can trigger notifications include:
+
+- A player coming into range
+- A crystal appearing in range
+- Nearly reaching the end of queue
+- Relogging of any kind
+
+This is the new, modernised version of **DQSWarn**.
+
+### Spammer
+
+**Command:** `&spam`
+
+This module acts as a fully configurable chat spammer.
+
+##### Full Explanation
+
+The DQS Chat Spammer registry is a list of all spam messages added by the user. Each message on that list has an ID, which can change based on the list's length and the removal of other spam messages on the registry.
+
+Spam message IDs can be viewed when a new spam message is added, or with the `&spam display` command.
+
+### Whitelist
+
+**Command:** `&whitelist`
+
+This module acts as a fully configurable and toggleable whitelist, useful for account sharing, which can be done without restriction, free of charge.
+
+##### Full Explanation
+
+This module is enabled by default for security, though it can be disabled. You can add and remove players from the whitelist for account sharing, which can be done for free. DM Dewy to organise account sharing for your instance.
+
+## Focusing & Additional Accounts
+
+Using DQS with more than one account can be done for an extra £5/mo per account. Focusing allows you to change 'focus' on which account you'd like to command.
+
+For example, if I had 2 accounts, `Johanne` and `No0dle`, and I was currently focused on `Johanne`, I'd be able to modify the DQS instance for `Johanne` and their settings.
+
+If I were to `&focus` on `No0dle`, I'd be modifying the DQS instance for `No0dle` instead.
+
+Keep in mind you may have to `/forget` in the Gateway in order to take control of different accounts, to get around the authentication caching system.
+
+Dewy will DM you a list of accounts registered to your name and their IDs, that you will use with Gateway authentication. Here's an example:
+
+- Johanne (1): `&auth <CODE> 1`
+- No0dle (2): `&auth <CODE> 2`
+
+## Event Scheduling
+
+**The DQS service undergoes a restart every 6 days.**
+
+During that time, your account will NOT be connected to any server, and your instance will not be active.
+
+Your settings are saved however, don't worry.
+
+**DQS will receive updates once every 18 days.**
+
+These updates will include new features, bug fixes and improvements on existing features.
+
+## Privacy
+
+The nature of these services makes them big targets. This is why DQS has the best security of all queueskip services currently existing, to keep your account and its secrets safe.
+
+Dewy is well known to be unbiased and not leaning towards any particular ingame group or faction.
+
+Much like the coming VoQ service from the Vortex Coalition, all account details are encrypted and locked in a box, to prevent any attacker from snatching them if they were to get into the database. They'd need the jars, which are heavily obfuscated and protected with HWID auth and the like, to stop any potential attackers.
+
+Not to mention that the DQS server provider, Hetzner, provides excellent security, along with top-end DDOS protection and firewalling, to keep DQS up and running no matter its opposition.
+
+Feel free to ask current subscribers about their experiences with DQS's security. We don't lie around here, we ain't cheese.
+
+## Other Servers
+
+While DQS is intended for 2B2T, it isn't bound to it. When signing up, you gain the option to choose which 'target server' you'd like your instance to always be connected to. This server can be anything that supports 1.12.2 Minecraft clients, including **Constantiam**, **Oldfag** and many more.
