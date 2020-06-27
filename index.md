@@ -19,7 +19,7 @@ grid_navigation:
      cta: Go
      url: '/about'
    - title: Buy
-     excerpt: Purchase DQS and get your instance.
+     excerpt: Purchase DQS and get your instance set up.
      cta: Go
      url: '/buy'
    - title: Features
