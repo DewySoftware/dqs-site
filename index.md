@@ -30,12 +30,12 @@ grid_navigation:
      excerpt: Frequently asked questions from the community.
      cta: Go
      url: '/faq'
-   - title: Support & Bug Reporting
-     excerpt: Support beyond the FAQ.
+   - title: Support
+     excerpt: Support beyond the scope of the FAQ.
      cta: Go
      url: '/support'
    - title: Acknowledgements
-     excerpt: Credits and acknowledgements to open source projects. <3
+     excerpt: The wonderful tech that makes DQS possible.
      cta: Go
      url: '/credits'
 ---

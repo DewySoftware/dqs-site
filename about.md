@@ -28,7 +28,7 @@ page_nav:
 DQS (Dewy's QueueSkip) is an account management and proxy service, designed for use in anarchy Minecraft environments.
 It's primarily intended for use on 2B2T, hence the 'QueueSkip' bit of the name, but it can be used on any anarchy server that supports version 1.12.2
 
-DQS keeps your account online at all times, hosted on a remote server. You *take control* of your account by connecting to `dqs.dewy.dev`. When you disconnect, your account will remain logged in.
+DQS keeps your account online at all times, hosted on a remote server. You *take control* of your account by connecting to `dqs.dewy.dev`. When you disconnect, your account will remain logged in. With Taribone's AntiAFK, your account can remain connected for up to 6 hours, allowing you to essentially skip queue in most circumstances.
 
 DQS is more than a proxy, however. It comes with various utilities and boundary-pushing features, all controlled through the DQS Discord bot. The most notable include:
 
