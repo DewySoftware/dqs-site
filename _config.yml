@@ -8,10 +8,12 @@ doks:
         nav:
             - item_name: Home
               item_url: 'https://dqs.dewy.dev/'
+            - item_name: About
+              item_url: 'https://dqs.dewy.dev/about'
             - item_name: Buy
               item_url: 'https://dqs.dewy.dev/buy'
             - item_name: FAQ
-              item_url: 'https://dqs.dewy.dev/buy'
+              item_url: 'https://dqs.dewy.dev/faq'
             - item_name: Support
               item_url: 'https://dqs.dewy.dev/support'
     footer:
@@ -28,7 +30,7 @@ doks:
             - network_name: youtube
               profile_url: 'https://www.youtube.com/channel/UCKWk27Y5JH-heB7-e9Tojlw'
     google_analytics:
-        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+        tracking_code: UA-171053082-1
     comments:
         disqus_forum_shortname: # Add your disqus forum shortname to activate comments
 
