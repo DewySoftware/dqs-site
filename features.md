@@ -182,7 +182,7 @@ This command will display information about the status and configuration of all 
 
 ### Pos Command
 
-This command will display information about your current queue position and the live queue lengths, courtesy of the [2b2t.dev](https://2b2t.dev/) API.
+This command will display information about your current queue position and the live queue lengths, courtesy of the [2b2t.dev](https://2b2t.dev/) and [2b2t.io](https://2b2t.io/api) APIs.
 
 ##### Syntax
 
@@ -191,6 +191,7 @@ This command will display information about your current queue position and the 
 ##### Aliases
 
 - `&qpos`
+- `&queuepos`
 - `&position`
 
 ## Module Commands
@@ -207,7 +208,9 @@ Toggle and configure the DQS Auto Disconnect module. This module is only active 
 - `&autodisconnect player` - Toggles automatically relogging if a player comes into range.
 - `&autodisconnect crystal` - Toggles automatically relogging if a crystal comes into range.
 - `&autodisconnect queue` - Toggles automatically relogging if you get close to the end of the queue, leaving you in an endless queue loop that can only end if you take control.
-- `&autodisconnect queue [POSITION]` - Modify the threshold that used to tell if you are 'close to the end of the queue'. Must be greater than 5.
+- `&autodisconnect queue [POSITION]` - Modify the threshold that is used to tell if you are 'close to the end of the queue'. Must be greater than 5.
+- `&autodisconnect hp` - Toggles automatically relogging if your health gets below the low HP threshold.
+- `&autodisconnect hp [THRESHOLD]` - Modify the low HP threshold that is used to tell if you are close to death. Must be less than 9.5
 
 ##### Aliases
 
@@ -254,6 +257,8 @@ Toggle and configure the DQS Notifications module. Being as Taribone AntiAFK is 
 - `&notifications crystal` - Toggles crystal in range notifications.
 - `&notifications queue` - Toggles 'close to the end of queue' notifications. 
 - `&notifications queue [POSITION]` - Modify the threshold that used to tell if you are 'close to the end of the queue'. Must be greater than 5.
+- `&notifications hp` - Toggles low HP notifications. 
+- `&notifications hp [THRESHOLD]` - Modify the threshold that used to tell if you are close to death. Must be less than 9.5
 
 ##### Aliases
 

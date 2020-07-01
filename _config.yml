@@ -21,7 +21,7 @@ doks:
             logo:
                 text: DQS
                 image:
-            copyright: Copyright &copy; 2020 - Dewy Software <br>All rights reserved. <br><br>DQS v3.0.0; made with <3 by Dewy.
+            copyright: Copyright &copy; 2020 - Dewy Software <br>All rights reserved. <br><br>DQS v3.0.1; made with <3 by Dewy.
         social_list:
             - network_name: gitlab
               profile_url: 'https://gitlab.com/dewysoftware/'
