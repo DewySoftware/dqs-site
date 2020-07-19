@@ -230,6 +230,20 @@ Configure the DQS Auto Reconnect module.
 - `&autorc`
 - `&arc`
 
+### Auto Reply Command
+
+Toggle and configure the DQS Auto Reply module.
+
+##### Syntax
+
+- `&autoreply` - Toggles the module in its entirety.
+- `&autoreply [MESSAGE]` - Modify the auto reply message.
+
+##### Aliases
+
+- `&arp`
+- `&reply`
+
 ### Auto Respawn Command
 
 Toggle and configure the DQS Auto Respawn module.
@@ -245,6 +259,21 @@ Toggle and configure the DQS Auto Respawn module.
 - `&respawn`
 - `&spawn`
 - `&ars`
+
+### Mail Forwarding Command
+
+Toggle and configure the DQS Mail Forwarding module.
+
+##### Syntax
+
+- `&mailforward` - Toggles the module in its entirety.
+
+##### Aliases
+
+- `&mfw`
+- `&mail`
+- `&forwarding`
+- `&mailforwarding`
 
 ### Notifications Command
 
@@ -533,6 +562,16 @@ This module is configurable, but NOT toggleable. This module is on at all times,
 
 The seconds delay must be above 90 due to Hause's new anti-DQS measures and Mojang's authentication API rate limit. A fix is currently being investigated.
 
+### Auto Reply
+
+**Command:** `&autoreply`
+
+This module will automatically reply to any whispers with a given message.
+
+##### Full Explanation
+
+If you're whispered to whilst not connected to your instance, a whisper will automatically be sent back containing a message provided by you. This module is enabled by default.
+
 ### Auto Respawn
 
 **Command:** `&autorespawn`
@@ -542,6 +581,16 @@ This module will automatically respawn you if you die.
 ##### Full Explanation
 
 This module is NOT active while you are in control. When you die, you will automatically respawn with this module after a configurable delay of 1 or more seconds.
+
+### Mail Forwarding
+
+**Command:** `&mailforward`
+
+This module will forward any received whispers whilst AFK to your Discord DMs.
+
+##### Full Explanation
+
+If you're whispered to whilst not connected to your instance, a notification containing the message will be sent to your Discord DMs. This module is enabled by default.
 
 ### Notifications
 
