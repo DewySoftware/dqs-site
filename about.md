@@ -38,7 +38,7 @@ DQS is more than a proxy, however. It comes with various utilities and boundary-
 
 ### Wait, Baritone?
 
-Yes, that's right. Using Taribone, the DQS headless Baritone implementation, DQS can run Baritone tasks in the cloud. Using commands like `&goto` and `&path`, you can leave your account on the highway while you sleep.
+Yes, that's right. Using Taribone, the DQS headless Baritone implementation, DQS can run Baritone tasks in the cloud. Using commands like `&goto` and `&path`, you can leave your account on the highway while you sleep, and with `&mine`, you can turn your account into an auto-mining machine.
 
 This is a new feature that has never been implemented in a public facing proxy/queueing service like this before, and a great leap forward in automation.
 

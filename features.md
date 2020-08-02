@@ -453,6 +453,14 @@ Inverts your goal, ie you'll begin to head away from the goal, just like a `#inv
 
 - `&invert` - Inverts your Taribone goal.
 
+### Mine Command
+
+Full auto mining, just like Baritone's `#mine` command.
+
+##### Syntax
+
+- `&mine <BLOCK ID>` - Mine a given block. Must be a 1.12 block id, eg `diamond_ore` or `grass_block`.
+
 ### Path Command
 
 Have your account path towards the set of coordinates defined earlier with `&goal`.
@@ -560,7 +568,7 @@ This module is responsible for automatically reconnecting you when you get kicke
 
 This module is configurable, but NOT toggleable. This module is on at all times, no matter what.
 
-The seconds delay must be above 90 due to Hause's new anti-DQS measures and Mojang's authentication API rate limit. A fix is currently being investigated.
+The seconds delay must be above or equal to 30 due to Hause's new anti-DQS measures and Mojang's authentication API rate limit. A fix is currently being investigated.
 
 ### Auto Reply
 

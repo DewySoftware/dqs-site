@@ -21,7 +21,7 @@ page_nav:
 
 <div class="callout callout--danger">
   <p><strong>Discord & Patreon</strong></p>
-  <p>In order to get started with DQS, you must join the <a href="https://discord.gg/8mWZqv5">Discord</a> and create a Patreon account. Leaving the Discord is also very strongly discouraged, as you will lose access to some features.
+  <p>In order to get started with DQS, you must join the <a href="https://discord.gg/8mWZqv5">Discord</a> and create a Patreon account or Paypal account. Leaving the Discord is also very strongly discouraged, as you will lose access to some features.
   </p>
 </div>
 
@@ -46,9 +46,11 @@ If you wish to add multiple accounts to your DQS purchase (each extra account co
 
 So, for example, 4 accounts total will cost £20/mo, and 3 accounts total will cost £15/mo, etc.
 
+Alternatively, payments can be done through and customised quotes and plans can be arranged (non recurring, X month plans, etc) through [PayPal](https://paypal.me/dewysoftware).
+
 ## Getting Started
 
-Once you've subscribed to DQS on the Patreon, you must DM Dewy on Discord to get started with setting up your instance. Response times are guaranteed within 24 hours.
+Once you've subscribed to DQS on the Patreon or paid with PayPal, you must DM Dewy on Discord to get started with setting up your instance. Response times are guaranteed within 24 hours.
 
 As soon as you've provided the necessary information, your instance will be initialised, and you will be granted access.
 
