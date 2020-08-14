@@ -37,6 +37,12 @@ Free trials can be arranged on Discord by DMing Dewy. For free trials, only 1 ac
   </p>
 </div>
 
+<div class="callout callout--warning">
+  <p><strong>Other Payment Methods</strong></p>
+  <p>If Patreon isn't an optimal payment method for you, one time payments for however many months can be purchased through <a href="https://paypal.me/dewysoftware">PayPal</a>, cryptocurrencies or by other means. See <a href="#alternative-payment-methods">here</a> for details.
+  </p>
+</div>
+
 Once you've joined the Discord server and have made a Patreon account, head **[here](https://patreon.com/dewysoftware)** to subscribe to DQS.
 
 Due to how Patreon payments work, the subscription model works like this;
@@ -50,13 +56,22 @@ If you wish to add multiple accounts to your DQS purchase (each extra account co
 
 So, for example, 4 accounts total will cost £20/mo, and 3 accounts total will cost £15/mo, etc.
 
-**Alternatively, payments can be done through and customised quotes and plans can be arranged (non recurring, X month plans, etc) through [PayPal](https://paypal.me/dewysoftware).**
+## Alternative Payment Methods
+
+- **[PayPal](https://paypal.me/dewysoftware)**
+- **Bitcoin:** COMING SOON
+- **Stellar:** `GCCEUIDWCS6T5HIJTOWYSV5U33ZJLD2UYH4UAS4FRJL5Q6GLOKJHJNOK`
+
+**Payment is also accepted in the form of server boosts and Nitro gifts, DM me to arrange those.**
 
 ## Getting Started
 
-Once you've subscribed to DQS on the Patreon or paid with PayPal, you must DM Dewy on Discord to get started with setting up your instance. Response times are guaranteed within 24 hours.
+Once you've subscribed to DQS and Dewy has set up your instance, here is how to get your instance up and running.
 
-As soon as you've provided the necessary information, your instance will be initialised, and you will be granted access.
+1. **Sign In** - Use the `&signin` command to authenticate and connect. If you have privacy concerns, see the documentation.
+2. **Enter The Gateway** - Connect using your normal Minecraft client to `dqs.dewy.dev`. Get your authentication code with `/auth` and use it to authenticate to take control of your instance.
+3. **Configure** - Change module settings to just the way you want them and even switch servers.
+4. **Use** - From here, DQS is all yours. Go nuts with all of its brilliant features!
 
 ## Next Steps
 

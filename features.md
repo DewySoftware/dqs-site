@@ -35,8 +35,10 @@ All valid DQS commands and their summaries are listed below;
 
 - `&autodisconnect` - Toggle and configure the Auto Disconnect module.
 - `&autoreconnect` - Configure the Auto Reconnect module.
+- `&autoreply` - Toggle and configure the Auto Reply module.
 - `&autorespawn` - Toggle and configure the Auto Respawn module.
 - `&focus` - Switch the account you'd like to be 'focused' on. **For those with additional accounts only.**
+- `&mailforward` - Toggle and configure the Mail Forwarding module.
 - `&notifications` - Toggle and configure the Notifications module.
 - `&spammer` - Toggle and configure the Chat Spammer module.
 - `&whitelist` - Toggle and configure the Whitelist module.
@@ -57,6 +59,7 @@ All valid DQS commands and their summaries are listed below;
 - `&goal` - Set a Taribone goal to be acted on with `&path`.
 - `&goto` - Go to a set of given coordinates.
 - `&invert` - Inverts your goal.
+- `&mine` - Automatically mine blocks of a certain type, avoiding all hazards.
 - `&path` - Path to a goal set earlier by `&goal`.
 - `&pause` - Pause a currently running Taribone process.
 - `&resume` - Resume a paused Taribone process.
@@ -64,6 +67,9 @@ All valid DQS commands and their summaries are listed below;
 
 #### Utilities
 
+- `&connect` - Connect to the target server after a `&disconnect`.
+- `&disconnect` - Disconnect from the target server until a `&connect` command is issued.
+- `&switch` - Switch your target server to a different 1.12 anarchy server. You must first `&disconnect` to use this.
 - `&recover` - In the event of a critical error, in which Auto Reconnect cannot function, use this to get back up and running.
 - `&relog` - Relog / re-queue your account.
 - `&signin` - Sign in using your IGN and Mojang email/pass.
@@ -79,7 +85,7 @@ All valid DQS commands and their summaries are listed below;
 
 Taribone is a headless pathfinding an automation implementation built to replicate Baritone functionality for DQS. It offers the same high quality pathfinding Baritone offers, with mob avoidance and the like included, controlled over Discord via the DQS bot.
 
-Most useful Baritone commands have been implemented, though more are currently in development, including `&mine` and `&build`.
+Most useful Baritone commands have been implemented, though more are currently in development, including `&build`.
 
 This is the first time a queueskip service has implemented pathfinding and automation on this scale, with DQS leading the charge into true cloud-based Minecraft automation.
 
@@ -260,6 +266,30 @@ Toggle and configure the DQS Auto Respawn module.
 - `&spawn`
 - `&ars`
 
+### Connect Command
+
+Connect to the target server at will. You can switch target servers using the `&switch` command.
+
+##### Syntax
+
+- `&connect` - Connect to your target server.
+
+##### Aliases
+
+- `&conn`
+
+### Disconnect Command
+
+Disconnect to the target server at will. To reconnect again, you must use the `&connect` command.
+
+##### Syntax
+
+- `&disconnect` - Disconnect from your target server.
+
+##### Aliases
+
+- `&dc`
+
 ### Mail Forwarding Command
 
 Toggle and configure the DQS Mail Forwarding module.
@@ -314,6 +344,21 @@ Toggle and configure the DQS Chat Spammer module. With this, you can advertise a
 - `&chatspam`
 - `&chatspammer`
 - `&dqsspam`
+
+### Switch Command
+
+This command can be used to switch target servers. Using it, you can connect to other 1.12 anarchy servers.
+
+##### Syntax
+
+- `&switch <ADDRESS>` - Switch to a new target server on port **25565**.
+- `&switch <ADDRESS> [PORT]` - Switch to a new target server on a custom port.
+
+##### Aliases
+
+- `&sw`
+- `&srv`
+- `&target`
 
 ### Whitelist Command
 
