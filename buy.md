@@ -25,6 +25,10 @@ page_nav:
   </p>
 </div>
 
+## Free Trials
+
+Free trials can be arranged on Discord by DMing Dewy. For free trials, only 1 account can be used (ie the focus module would be disabled) but all other features would be present.
+
 ## Billing & Payment
 
 <div class="callout callout--warning">
@@ -46,7 +50,7 @@ If you wish to add multiple accounts to your DQS purchase (each extra account co
 
 So, for example, 4 accounts total will cost £20/mo, and 3 accounts total will cost £15/mo, etc.
 
-Alternatively, payments can be done through and customised quotes and plans can be arranged (non recurring, X month plans, etc) through [PayPal](https://paypal.me/dewysoftware).
+**Alternatively, payments can be done through and customised quotes and plans can be arranged (non recurring, X month plans, etc) through [PayPal](https://paypal.me/dewysoftware).**
 
 ## Getting Started
 
